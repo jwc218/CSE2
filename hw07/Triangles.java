@@ -14,6 +14,7 @@ public class Triangles{
         // ask for value
         System.out.print("Enter an integer between 5 and 30: ");
         int num = myScanner.nextInt();
+        // make sure value is appropiate if within range
         if (num>=5 && num<=30){
               while(!myScanner.hasNextInt()) {
     myScanner.next();
