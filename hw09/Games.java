@@ -121,9 +121,5 @@ public class Games{
             String newString= new String(w);
             System.out.println("Your scrambled word is: "+ newString);
             
-        }
-        else{
-            System.out.println(" Our arcade does not offer that game");
-        }
-    }// end of main method
+        }// end of main method
 }// end of class
