@@ -13,6 +13,7 @@ public class CardGenerator{
         // generate random number 
         int number = (int) (Math.random()*52);
         // start statement
+        System.out.println(number);
         System.out.print("You picked the ");
      
 // make modulus function for card type
